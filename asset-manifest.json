@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SandraYushko/DZ-s-avtoproverkoi/static/css/main.c3b94e56.css",
-    "main.js": "/SandraYushko/DZ-s-avtoproverkoi/static/js/main.9e3e1f20.js",
-    "static/js/787.28cb0dcd.chunk.js": "/SandraYushko/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js",
-    "static/media/avatar.png": "/SandraYushko/DZ-s-avtoproverkoi/static/media/avatar.d947cb9d0d13765666b6.png",
-    "index.html": "/SandraYushko/DZ-s-avtoproverkoi/index.html",
-    "main.c3b94e56.css.map": "/SandraYushko/DZ-s-avtoproverkoi/static/css/main.c3b94e56.css.map",
-    "main.9e3e1f20.js.map": "/SandraYushko/DZ-s-avtoproverkoi/static/js/main.9e3e1f20.js.map",
-    "787.28cb0dcd.chunk.js.map": "/SandraYushko/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/DZ-s-avtoproverkoi/static/css/main.c3b94e56.css",
+    "main.js": "/DZ-s-avtoproverkoi/static/js/main.eaa57275.js",
+    "static/js/787.28cb0dcd.chunk.js": "/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js",
+    "static/media/avatar.png": "/DZ-s-avtoproverkoi/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/DZ-s-avtoproverkoi/index.html",
+    "main.c3b94e56.css.map": "/DZ-s-avtoproverkoi/static/css/main.c3b94e56.css.map",
+    "main.eaa57275.js.map": "/DZ-s-avtoproverkoi/static/js/main.eaa57275.js.map",
+    "787.28cb0dcd.chunk.js.map": "/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3b94e56.css",
-    "static/js/main.9e3e1f20.js"
+    "static/js/main.eaa57275.js"
   ]
 }
