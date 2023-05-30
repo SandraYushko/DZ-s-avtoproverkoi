@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SandraYushko/DZ-s-avtoproverkoi/static/css/main.c3b94e56.css",
+    "main.js": "/SandraYushko/DZ-s-avtoproverkoi/static/js/main.11db03f5.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SandraYushko/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js",
+    "static/media/avatar.png": "/SandraYushko/DZ-s-avtoproverkoi/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/SandraYushko/DZ-s-avtoproverkoi/index.html",
+    "main.c3b94e56.css.map": "/SandraYushko/DZ-s-avtoproverkoi/static/css/main.c3b94e56.css.map",
+    "main.11db03f5.js.map": "/SandraYushko/DZ-s-avtoproverkoi/static/js/main.11db03f5.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SandraYushko/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3b94e56.css",
+    "static/js/main.11db03f5.js"
+  ]
+}
