@@ -4,36 +4,36 @@ import {MessageType} from '../HW1';
 
 // создать тип вместо any и отобразить приходящие данные
 export type FriendMessagePropsType = {
-    friendMessage: MessageType
+    message: MessageType
 }
 const FriendMessage = (props: FriendMessagePropsType) => {
     return (
         <div
-            id={'hw1-friend-message-' + props.friendMessage.id}
+            id={'hw1-friend-message-' + props.message.id}
             className={s.friendMessage}>
             <div className={s.friendImageAndText}>
-                <img src={props.friendMessage.user.avatar} alt={"tekst"}
-                    id={'hw1-friend-avatar-' + props.friendMessage.id}
+                <img src={props.message.user.avatar} alt={"tekst"}
+                    id={'hw1-friend-avatar-' + props.message.id}
                 />
                 <div className={s.friendText}>
                     <div
-                        id={'hw1-friend-name-' + props.friendMessage.id}
+                        id={'hw1-friend-name-' + props.message.id}
                         className={s.friendName}>
-                        {props.friendMessage.user.name}
+                        {props.message.user.name}
                     </div>
                     <pre
-                        id={'hw1-friend-text-' + props.friendMessage.id}
+                        id={'hw1-friend-text-' + props.message.id}
                         className={s.friendMessageText}
                     >
-                        {props.friendMessage.message.text}
+                        {props.message.message.text}
                     </pre>
                 </div>
             </div>
             <div
-                id={'hw1-friend-time-' + props.friendMessage.id}
+                id={'hw1-friend-time-' + props.message.id}
                 className={s.friendTime}
             >
-                {props.friendMessage.message.time}
+                {props.message.message.time}
 
                 {/**/}
             </div>
