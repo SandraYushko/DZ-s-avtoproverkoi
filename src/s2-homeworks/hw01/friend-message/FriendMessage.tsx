@@ -4,36 +4,36 @@ import {MessageType} from '../HW1';
 
 // создать тип вместо any и отобразить приходящие данные
 export type FriendMessagePropsType = {
-    friendMessage0: MessageType
+    friendMessage: MessageType
 }
 const FriendMessage = (props: FriendMessagePropsType) => {
     return (
         <div
-            id={'hw1-friend-message-' + props.friendMessage0.id}
+            id={'hw1-friend-message-' + props.friendMessage.id}
             className={s.friendMessage}>
             <div className={s.friendImageAndText}>
-                <img src={props.friendMessage0.user.avatar} alt={"tekst"}
-                    id={'hw1-friend-avatar-' + props.friendMessage0.id}
+                <img src={props.friendMessage.user.avatar} alt={"tekst"}
+                    id={'hw1-friend-avatar-' + props.friendMessage.id}
                 />
                 <div className={s.friendText}>
                     <div
-                        id={'hw1-friend-name-' + props.friendMessage0.id}
+                        id={'hw1-friend-name-' + props.friendMessage.id}
                         className={s.friendName}>
-                        {props.friendMessage0.user.name}
+                        {props.friendMessage.user.name}
                     </div>
                     <pre
-                        id={'hw1-friend-text-' + props.friendMessage0.id}
+                        id={'hw1-friend-text-' + props.friendMessage.id}
                         className={s.friendMessageText}
                     >
-                        {props.friendMessage0.message.text}
+                        {props.friendMessage.message.text}
                     </pre>
                 </div>
             </div>
             <div
-                id={'hw1-friend-time-' + props.friendMessage0.id}
+                id={'hw1-friend-time-' + props.friendMessage.id}
                 className={s.friendTime}
             >
-                {props.friendMessage0.message.time}
+                {props.friendMessage.message.time}
 
                 {/**/}
             </div>

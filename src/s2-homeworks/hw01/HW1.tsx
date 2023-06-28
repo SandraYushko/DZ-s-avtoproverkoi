@@ -27,7 +27,7 @@ export type MessageType = {
 }
 
 // структуру объекта не менять
-export const message0: MessageType = {
+export const message: MessageType = {
     id: 0,
     user: {
         avatar: avatar,
@@ -38,7 +38,7 @@ export const message0: MessageType = {
         time: '9:00',
     },
 }
-export const friendMessage0: MessageType = {
+export const friendMessage: MessageType = {
     id: 100,
     user: {
         avatar: avatar,
@@ -57,8 +57,8 @@ const HW1 = () => {
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
                 <div>
-                    <Message message0={message0} />
-                    <FriendMessage friendMessage0={friendMessage0} />
+                    <Message message={message} />
+                    <FriendMessage friendMessage={friendMessage} />
                 </div>
 
                 {/*для автоматической проверки дз (не менять)*/}
