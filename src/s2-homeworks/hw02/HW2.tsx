@@ -53,7 +53,6 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
 export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => {
     affairs = affairs.filter(t => t._id !== _id)
     return affairs
-    console.log(affairs)
 }
 
 
@@ -65,7 +64,6 @@ function HW2() {
     const filteredAffairs = filterAffairs(affairs, filter)
 
     const deleteAffairCallback = (_id: number) => {
-
         setAffairs(deleteAffair(affairs, _id))
     }
 
