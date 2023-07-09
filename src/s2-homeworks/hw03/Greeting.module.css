@@ -1,9 +1,12 @@
 .greetingForm {
+    /*display: flex;
+    align-items: flex-start;*/
 }
 
 .inputAndButtonContainer {
     display: flex;
     justify-content: normal;
+    height: 24px;
 }
 
 .error {
@@ -14,6 +17,7 @@
 }
 
 .input:focus {
+    outline: none;
 }
 
 .errorInput {
