@@ -3,7 +3,8 @@
 }
 
 .textarea {
-
+    overflow: hidden;
+    resize: none;
 }
 
 .button {
