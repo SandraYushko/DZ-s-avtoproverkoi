@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/DZ-s-avtoproverkoi/static/css/main.4a2b2ab4.css",
-    "main.js": "/DZ-s-avtoproverkoi/static/js/main.30562937.js",
+    "main.css": "/DZ-s-avtoproverkoi/static/css/main.073c9b0a.css",
+    "main.js": "/DZ-s-avtoproverkoi/static/js/main.54032c75.js",
     "static/js/787.28cb0dcd.chunk.js": "/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js",
-    "static/media/avatar.png": "/DZ-s-avtoproverkoi/static/media/avatar.d947cb9d0d13765666b6.png",
     "index.html": "/DZ-s-avtoproverkoi/index.html",
-    "main.4a2b2ab4.css.map": "/DZ-s-avtoproverkoi/static/css/main.4a2b2ab4.css.map",
-    "main.30562937.js.map": "/DZ-s-avtoproverkoi/static/js/main.30562937.js.map",
+    "main.073c9b0a.css.map": "/DZ-s-avtoproverkoi/static/css/main.073c9b0a.css.map",
+    "main.54032c75.js.map": "/DZ-s-avtoproverkoi/static/js/main.54032c75.js.map",
     "787.28cb0dcd.chunk.js.map": "/DZ-s-avtoproverkoi/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a2b2ab4.css",
-    "static/js/main.30562937.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.54032c75.js"
   ]
 }
