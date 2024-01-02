@@ -1,5 +1,6 @@
 .friendMessage {
     margin-left: 70px;
+    margin-top: 20px;
 }
 
 .friendImageAndText {
@@ -58,5 +59,7 @@
 }
 
 .friendTime {
-
+    font-size: 10px;
+    font-weight: 600;
+    margin: 5px 10px 0 10px;
 }
